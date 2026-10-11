@@ -1,0 +1,41 @@
+{
+  "name": "resolve",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "convex dev --start 'next dev'",
+    "predev": "convex init && node setup.mjs --once",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && next build",
+    "start": "next start",
+    "lint": "eslint . --ignore-pattern \"convex/_generated/**\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@convex-dev/auth": "^0.0.95",
+    "convex": "^1.44.0",
+    "next": "16.3.3",
+    "openai": "^7.23.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "resend": "^6.28.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@convex-dev/eslint-plugin": "^5.0.0",
+    "@edge-runtime/vm": "^5.0.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "convex-test": "^0.0.59",
+    "dotenv": "^17.4.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.0",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.1"
+  }
+}
