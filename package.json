@@ -14,7 +14,7 @@
   "dependencies": {
     "@convex-dev/auth": "^0.0.95",
     "convex": "^1.44.0",
-    "next": "16.3.3",
+    "next": "16.3.8",
     "openai": "^7.23.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
@@ -32,7 +32,7 @@
     "convex-test": "^0.0.59",
     "dotenv": "^17.4.2",
     "eslint": "^9.39.5",
-    "eslint-config-next": "16.3.0",
+    "eslint-config-next": "16.3.8",
     "prettier": "^3.9.6",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
